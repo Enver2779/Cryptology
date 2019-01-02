@@ -18,8 +18,8 @@ void main()
 
 void ls_dir(char* start_path)
 {
-	unsigned char key[] = "B374A26A71490437AA024E4FADD5B497FDFF1A8EA6FF12F6FB65AF2720B59CCF"; //32 chars long
-        unsigned char iv[] = "7E892875A52C59A3B588306B13C31FBD";//16 chars long
+	unsigned char key[] = "B374A26A71490437AA024E4FADD5B497FDFF1A8EA6FF12F6FB65AF2720B59CCF"; 
+        unsigned char iv[] = "7E892875A52C59A3B588306B13C31FBD";
 
 	DIR* dir;
 	struct dirent *ent;
@@ -86,7 +86,7 @@ void decryptfile(FILE * fpin,FILE* fpout,unsigned char* key, unsigned char* iv)
 	//Using openssl EVP to encrypt a file
 
 
-	const unsigned bufsize = 4096; // bytes to read
+	const unsigned bufsize = 4096; 
 	unsigned char* read_buf = malloc(bufsize);
 	unsigned char* cipher_buf ;// decrypted text
 	unsigned blocksize;
