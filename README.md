@@ -1,3 +1,2 @@
-# Kriptoloji
-Kriptoloji Dersi Dönem Projesi
-OpenSSL Kütüphanesi kullanılarak AES-256 CBC algoritması ile yazılım kaynak kodunun şifrelenmesi ve şifrenin çözülmesi.
+# Cryptology
+Encryption and decryption of the software source code using the AES-256 CBC algorithm using the OpenSSL Library.
